@@ -6,7 +6,7 @@ packages:
   gitServerName: srcGithubCtrl_Arti
   gitUrl: https://github.com/ArtiKhareIBM
   gitUsername: ArtiKhareIBM
-  gitBranch: main
+  gitBranch: Arti
 services:
 - serviceName: project.ser_testbranch.integrations:gcd_branch
   packages:
