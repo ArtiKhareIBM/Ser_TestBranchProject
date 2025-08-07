@@ -7,3 +7,12 @@ packages:
   gitUrl: https://github.com/ArtiKhareIBM
   gitUsername: ArtiKhareIBM
   gitBranch: main
+services:
+- serviceName: project.ser_testbranch.integrations:gcd_branch
+  packages:
+  - name: Ser_TestBranchProject
+    version: "1.0"
+- serviceName: pub.date:getCurrentDate
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2076
